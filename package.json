@@ -1,0 +1,16 @@
+{
+  "name": "testmybot-sample-watson",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --exit spec",
+    "emulator": "node node_modules/testmybot/emulator-console.js",
+    "emulatorBrowser": "node node_modules/testmybot/emulator-browser.js"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^4.0.1",
+    "testmybot": "*"
+  },
+  "author": "Florian Treml",
+  "license": "ISC"
+}
