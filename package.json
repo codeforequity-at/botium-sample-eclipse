@@ -1,15 +1,16 @@
 {
-  "name": "testmybot-sample-watson",
-  "version": "1.0.0",
+  "name": "botium-sample-watson",
+  "version": "2.0.0",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec --exit spec",
-    "emulator": "node node_modules/testmybot/emulator-console.js",
-    "emulatorBrowser": "node node_modules/testmybot/emulator-browser.js"
+    "test": "mocha --reporter spec --exit spec",
+    "emulator": "botium-cli emulator console"
   },
   "devDependencies": {
     "chai": "^4.0.2",
     "mocha": "^4.0.1",
-    "testmybot": "*"
+    "botium-bindings": "latest",
+    "botium-cli": "latest",
+    "botium-connector-watson": "latest"
   },
   "author": "Florian Treml",
   "license": "ISC"
